@@ -11,7 +11,7 @@ import {
   updateExpense,
   deleteExpense,
   getTotalExpense
-} from "./services/expenseService";
+} from "./Services/ExpenseService";
 
 import Register from "./Components/Register";
 import Login from "./Components/Login";
