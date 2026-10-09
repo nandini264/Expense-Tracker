@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-import Navbar from "./components/Navbar";
-import ExpenseForm from "./components/ExpenseForm";
-import ExpenseList from "./components/ExpenseList";
-import ExpenseSummary from "./components/ExpenseSummary";
+import Navbar from "./Components/Navbar";
+import ExpenseForm from "./Components/ExpenseForm";
+import ExpenseList from "./Components/ExpenseList";
+import ExpenseSummary from "./Components/ExpenseSummary";
 
 import {
   getExpenses,

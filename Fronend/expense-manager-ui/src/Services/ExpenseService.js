@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api/expenses";
+const API_URL = "http://localhost:8081/api/expenses";
 
 // GET USER'S EXPENSES
 export const getExpenses = async (userId) => {

@@ -14,7 +14,7 @@ function Register({ onRegister }) {
     }
 
     try {
-      const response = await fetch("http://localhost:8080/users/register", {
+      const response = await fetch("http://localhost:8081/users/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
